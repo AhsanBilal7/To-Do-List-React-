@@ -1,0 +1,114 @@
+*
+{
+    font-family: 'poppins';
+}
+.maindiv
+{
+    display: flex;
+    background-color: rgb(3, 3, 3);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centerdiv
+{
+    /* border: 1px solid red; */
+    width: 50vw;
+    /* padding: 15px 15px; */
+    height: 50vh;
+    background: #FFFFFF;
+/* Industry Drop Shadow */
+overflow: scroll;
+
+
+box-shadow: 0px 4px 21px rgba(255, 159, 173, 0.5);
+border-radius: 7px;
+border: none;
+}
+.heading
+{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(7, 76, 166, 0.21);
+    border-radius: 8px;
+    height: 40px;
+
+
+    width: 50vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+
+}
+.button
+{
+    background-color: rgb(214, 219, 219);
+    border: none;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+input[type = 'text']
+{
+
+    /* border: 1px solid red; */
+    width: 30vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    border: none;
+    font-size: 13px;
+    padding: 0px 20px;
+}
+.list
+{
+    align-items: center;
+    display: flex;
+    /* border: 1px solid red; */
+    padding-top: 60px;
+    
+}
+button:hover{
+    background: linear-gradient(180deg, rgba(250, 45, 97, 0.15) 0%, rgba(248, 112, 0, 0.15) 100%);
+    box-shadow: 0px 4px 21px #FF9FAD;
+    border-radius: 5px;
+}
+ol{
+    margin: 0px;
+    padding: 0px 28px;
+}
+.list button{
+    /* background-color: rgb(255, 21, 0); */
+    border: none;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+
+}
+.listitem{
+   
+    /* width: 70%; */
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 20px;
+    padding: 0px 15px;
+    margin-top: 7px;
+   
+   
+    /* border: 1px solid red; */
+    background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(7, 76, 166, 0.21);
+border-radius: 8px;
+}
+.listitem button{
+    border-radius: 0px;
+    width: 50px;
+    height: 20px;
+}
